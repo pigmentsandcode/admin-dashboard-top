@@ -1,9 +1,10 @@
 body {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 3fr;
-  gap: 2rem;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
 }
+
+/* Sidebar */
 
 .sidebar-container {
   grid-column: 1 / 2;
@@ -49,15 +50,13 @@ body {
   align-self: center;
 }
 
-.project-icon {
-  width: 50px;
-  height: 50px;
-}
+/* Header */
 
 .header-container {
   display: grid;
   grid-template-rows: 4rem 6rem;
   gap: 1rem;
+  margin: 1rem;
 }
 
 .header-top-container {
@@ -144,4 +143,49 @@ body {
   background-color: #3864db;
   border: none;
   border-radius: 1rem;
+}
+
+.main-content-container {
+  background-color: #c2c6c9;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0.5rem;
+  gap: 1.5rem;
+}
+
+/* Projects */
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.project-card {
+  border: 2px black solid;
+  display: grid;
+  grid-template-rows: 200px 50px;
+  padding: 0 0.5rem;
+  height: 250px;
+}
+
+.project-top {
+  padding: 2px;
+}
+
+.project-icons-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.project-icons-list {
+  list-style: none;
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+}
+
+.project-icon {
+  width: 2rem;
+  height: 2rem;
 }
