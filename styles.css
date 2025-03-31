@@ -2,6 +2,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 4fr;
+  margin-right: 0;
 }
 
 /* Sidebar */
@@ -188,4 +189,37 @@ body {
 .project-icon {
   width: 2rem;
   height: 2rem;
+}
+
+.main-sidebar {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  margin-right: 15px;
+}
+
+/* Announcements */
+.announcements-list {
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(3, 110px);
+  padding: 20px;
+  align-items: center;
+  background-color: #eee;
+  margin-bottom: 0;
+}
+
+.announcement {
+  font-size: 1rem;
+  display: grid;
+}
+
+.announce-title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.announce-text {
+  color: #6f6969;
+  margin-top: 0;
+  font-size: 0.95rem;
 }
