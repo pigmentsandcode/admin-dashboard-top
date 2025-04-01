@@ -223,3 +223,33 @@ body {
   margin-top: 0;
   font-size: 0.95rem;
 }
+
+/* Trending */
+.trending-list {
+  list-style: none;
+  display: grid;
+  background-color: #eee;
+  padding: 20px;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.user-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.trend-project {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.trend-text {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.25rem;
+}
+
+.user-handle {
+  align-self: end;
+}
