@@ -279,3 +279,7 @@ body {
 .user-handle {
   align-self: end;
 }
+
+.trend-name {
+  color: #6f6969;
+}
