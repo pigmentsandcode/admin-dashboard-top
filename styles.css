@@ -174,17 +174,30 @@ body {
 }
 
 .project-card {
-  border: 2px black solid;
   display: grid;
-  grid-template-rows: 200px 50px;
-  padding: 0 0.5rem;
-  height: 250px;
+  grid-template-rows: 175px 50px;
+  padding: 0 1rem;
+  height: 225px;
+  background-color: #eee;
+  border: 10px orange;
+  border-style: none none none solid;
+  border-radius: 0.2rem;
 }
 
 .project-top {
   padding: 2px;
 }
 
+.project-card-name {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.project-descript {
+  margin-top: 0;
+  color: #6f6969;
+  font-size: 1.05rem;
+}
 .project-icons-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -196,6 +209,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0;
+  justify-items: center;
 }
 
 .project-icon {
